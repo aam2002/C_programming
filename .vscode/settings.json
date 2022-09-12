@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "TEST.C": "cpp",
+        "ncurses.h": "c",
+        "complex": "c",
+        "cmath": "c"
+    }
+}
