@@ -1,0 +1,1 @@
+In this notes all the code/concept is writen by me (Aman soni) it may be differ from your understanding and can me wrong . so please don't belive it blindly do follow your own notes and your self learning . If you find any thing wrong and unrelatable please do pull and let the whole community know the new way/efficient way to do the same thing
