@@ -2,11 +2,11 @@
 #include<stdio.h>
 void printhello();
 void printgoodbye();
-int main(){
+void main(){
     printhello();
     printf("how are you ? \n");
     printgoodbye();
-    return 0;
+   
 }
 void printhello(){
     printf("Hello \n");

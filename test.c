@@ -1,22 +1,16 @@
-// #include <stdio.h>
-// int main()
-// {
-//    int i,j,spc,rows,k;
-//    printf("Input number of rows : ");
-//    scanf("%d",&rows);
-//    spc=rows;
-//    for(i=1;i<=rows;i++)
-//    {
-//          for(k=spc;k>=1;k--)
-//             {
-//               printf(" ");
-//             }
-
-//        for(j=1;j<=i;j++)
-//        printf("* ");
-//     printf("\n");
-//     spc--;
-//    }
-//     return 0;
-// }
-
+#include<stdio.h>
+int main(){
+    int num , sum=0;
+    do
+    {
+      printf("Enter the number\n");
+      scanf("%d", &num);
+      if(num<0){
+        break;
+      }
+      sum=sum+num;
+    }
+    while (1);printf("%d\n",sum);
+    return 0;
+    
+}
