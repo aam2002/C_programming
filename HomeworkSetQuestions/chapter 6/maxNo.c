@@ -7,7 +7,7 @@ int main()
     scanf("%d %d", &a, &b);
     printf("The great number is : ");
     maxi(&a, &b);
-    printf("a = %d \nb = %d", a, b);
+    // printf("a = %d \nb = %d", a, b);
 }
 int maxi(int *a, int *b)
 {

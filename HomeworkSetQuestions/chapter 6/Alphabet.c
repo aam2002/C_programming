@@ -8,7 +8,6 @@ int main (){
 int alpha(char *A){
     for (char i='A';i<='Z';i++){
        printf("%c ", i);
-    
     }
     return 0;
 }
