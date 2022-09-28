@@ -3,6 +3,7 @@
         "TEST.C": "cpp",
         "ncurses.h": "c",
         "complex": "c",
-        "cmath": "c"
+        "cmath": "c",
+        "math.h": "c"
     }
 }
