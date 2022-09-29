@@ -2,7 +2,7 @@
 int main()
 {
     int n, c, n2;
-    printf("Enter number ");
+    printf("Enter the range ");
     scanf("%d%d", &n, &n2);
     for (int i = n; i <= n2; i++)
     {
