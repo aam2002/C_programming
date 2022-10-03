@@ -31,10 +31,7 @@ int main()
 int main()
 {
 
-     /* local variable definition */
      int a = 10;
-
-     /*do loop execution */
      do
      {
           printf("value of a: %d\n", a);
