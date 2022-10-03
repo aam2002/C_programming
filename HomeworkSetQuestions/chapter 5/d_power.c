@@ -15,7 +15,6 @@ int power( int n , int x){
     }
     int xofn;
     xofn=power(n,x-1)*n;
-    // int xMofn=xofn*n;
     return xofn;
 }
  
