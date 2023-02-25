@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<math.h>
+#include<string.h>
 int arrcount(char name[]);
 int main(){
      char name[100];

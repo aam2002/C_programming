@@ -3,6 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 int array(char ar[]);
+
 int main()
 {
     printf("Enter anything :");
@@ -12,6 +13,7 @@ int main()
     array(input);
     return 0;
 }
+
 int array(char ar[])
 {
     int count = 0;
@@ -25,5 +27,5 @@ int array(char ar[])
         }
         printf("%c", ar[i]);
     }
-    return 0;
+return 0;
 }

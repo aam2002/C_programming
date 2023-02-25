@@ -8,7 +8,7 @@ int main (){
     printf ("a = %d\nb = %d" , a , b );
     return 0;
 }
-void ptr(int *x , int *y ){
+void ptr(int *x , int *y ){ 
     int c = *x;
     *x=*y;
     *y=c;

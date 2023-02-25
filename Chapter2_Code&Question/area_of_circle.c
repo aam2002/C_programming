@@ -1,11 +1,12 @@
 // To print the area of the circl
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
     float radius;
-    float pi = 3.14 ;
+    float pi = 3.14;
     printf("Enter the radius ");
-    scanf( "%f" ,&radius);
-    printf("Area of circle is : %f \n" , pi*radius*radius);
+    scanf("%f", &radius);
+    printf("Area of circle is : %f \n", pi * radius * radius);
     return 0;
 }

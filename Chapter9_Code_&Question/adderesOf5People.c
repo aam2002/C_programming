@@ -38,40 +38,44 @@
 //     printf("\n");
 //     return 0;
 // }
-#include<stdio.h>
-#include<math.h>
-#include<string.h>
- typedef struct address{
-    int houseNo;
-    int block;
-    char city[100];
-    char state[100];
-}add;
+#include <stdio.h>
+#include <math.h>
+#include <string.h>
+typedef struct address
+{
+   int houseNo;
+   int block;
+   char city[100];
+   char state[100];
+} add;
 void printadd(struct address add);
-int main(){
-  struct address add[4];
-  printf("Enter info for person 1 :\n");
-  scanf("%d", &add[0].houseNo);
-  scanf("%d", &add[0].block);
-  scanf("%s", add[0].city);
-  scanf("%s", add[0].state);
-  scanf("%d", &add[1].houseNo);
-  scanf("%d", &add[1].block);
-  scanf("%s", add[1].city);
-  scanf("%s", add[1].state);
-  scanf("%d", &add[2].houseNo);
-  scanf("%d", &add[2].block);
-  scanf("%s", add[2].city);
-  scanf("%s", add[2].state);
-  scanf("%d", &add[3].houseNo);
-  scanf("%d", &add[3].block);
-  scanf("%s", add[3].city);
-  scanf("%s", add[3].state);
-  for (int i = 0; i<=3;i++){
-     printadd(add[i]);
-  }
-     return 0;
- }
- void printadd(struct address add){
-    printf("address is : %d , %d , %s , %s \n",add.houseNo,add.block,add.city,add.state);
- }
+int main()
+{
+   struct address add[4];
+   printf("Enter info for person 1 :\n");
+   scanf("%d", &add[0].houseNo);
+   scanf("%d", &add[0].block);
+   scanf("%s", add[0].city);
+   scanf("%s", add[0].state);
+   scanf("%d", &add[1].houseNo);
+   scanf("%d", &add[1].block);
+   scanf("%s", add[1].city);
+   scanf("%s", add[1].state);
+   scanf("%d", &add[2].houseNo);
+   scanf("%d", &add[2].block);
+   scanf("%s", add[2].city);
+   scanf("%s", add[2].state);
+   scanf("%d", &add[3].houseNo);
+   scanf("%d", &add[3].block);
+   scanf("%s", add[3].city);
+   scanf("%s", add[3].state);
+   for (int i = 0; i <= 3; i++)
+   {
+      printadd(add[i]);
+   }
+   return 0;
+}
+void printadd(struct address add)
+{
+   printf("address is : %d , %d , %s , %s \n", add.houseNo, add.block, add.city, add.state);
+}
