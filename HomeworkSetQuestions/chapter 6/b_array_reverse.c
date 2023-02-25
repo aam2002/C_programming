@@ -11,7 +11,7 @@ int main (){
     return 0;  
 }
 void reverse(int arr[], int n){
-    for (int i=0;i<n/2;i++){
+    for (int i=0;i<n/2-1;i++){
         int first = arr[i];
         int second= arr[n-i-1];
         arr[i]=second;

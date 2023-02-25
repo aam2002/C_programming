@@ -2,10 +2,10 @@
 #include<stdio.h>
 int sum(int n);
 int main (){
+     int n;
     printf("enter the number : \n");
-    int n;
     scanf("%d",&n);
-    printf("sum of number is ; %d\n",sum(n) );
+    printf("sum of number is : %d\n",sum(n) );
     return 0;
 }
 int sum( int n){
